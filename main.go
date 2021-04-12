@@ -5,9 +5,9 @@ package main
 func main() {
     a := App{}
     a.Initialize(
-        "davidschindler",
+        "postgres",
         "",
-        "davidschindler")
+        "postgres")
 
     a.Run(":8010")
 }

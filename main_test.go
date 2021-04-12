@@ -18,9 +18,9 @@ var a App
 
 func TestMain(m *testing.M) {
     a.Initialize(
-        "davidschindler",
+        "postgres",
         "",
-        "davidschindler")
+        "postgres")
 
     ensureTableExists()
     code := m.Run()
